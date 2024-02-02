@@ -1,0 +1,61 @@
+hr{
+  position: absolute;
+  top: 409px;
+  right: 0;
+  height: 1px;
+  width: 100%;
+  margin-left: -8px;
+  background-color: #CCCCCC;
+}
+
+
+.containerButton{
+  width: 825px;
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 30px;
+  margin: 0 auto;
+
+}
+.dflex{
+  display: flex;
+}
+
+
+.btn-submit{
+color: #fff;
+font-weight: 600;
+font-size: 16px;
+text-decoration: none;
+}
+@media screen and (max-width: 1265px) {
+  hr{
+    top: 544px;
+  }
+}
+
+@media screen and (max-width: 873px){
+  hr{
+    top: 609px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .dflex{
+    flex-direction: column;
+  }
+
+  html{
+    width: 100%;
+  }
+  hr{
+    top: 215px;
+  }
+  .containerButton{
+    width: 100%;
+  justify-content: center;
+  }
+  .imgSize{
+    width: 123px;
+    height: 123px;
+  }
+}
